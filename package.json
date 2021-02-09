@@ -1,0 +1,32 @@
+{
+  "name": "super-rotary-phone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --mode development --output-path ./public --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattsharpdesign/super-rotary-phone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattsharpdesign/super-rotary-phone/issues"
+  },
+  "homepage": "https://github.com/mattsharpdesign/super-rotary-phone#readme",
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "mithril": "^2.0.4",
+    "parse": "^2.19.0",
+    "preact": "^10.5.12"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.12.12",
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0"
+  }
+}

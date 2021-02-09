@@ -1,0 +1,48 @@
+@keyframes fade-in {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes fade-out {
+	from {opacity: 1;}
+	to {opacity: 0;}
+}
+
+@keyframes slide-down {
+  from { margin-top: -200px; }
+  to { margin-top: 0; }
+}
+
+@keyframes slide-out {
+  from { margin-top: 0; }
+  to { margin-top: -100px; }
+}
+
+
+.container {
+  padding-bottom: 70px;
+}
+
+.dimmer {
+  transition: opacity 0.5s;
+  animation: fade-in 0.5s;
+  opacity: 1;
+}
+
+.dimmer.hide {
+  transition: opacity 0.4s;
+  animation: fade-out 0.4s;
+  opacity: 0;
+}
+
+.modal {
+  animation: slide-down 0.5s;
+}
+
+.selector.modal {
+  top: 70px;
+}
+
+.job.item .header {
+  padding-right: 14px;
+}
